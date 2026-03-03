@@ -73,3 +73,7 @@ npx cypress run
   5. `class` selectors (less stable, may change with styling)
   6. Tag selectors like `h1`, `button` (least specific, use with caution)
   7. XPath (avoid if possible, harder to maintain)
+
+## Test State Classification
+
+Tests in this suite differ in the initial application state they require. See [tests-frios-vs-calientes.md](tests-frios-vs-calientes.md) for a full explanation of **cold tests**, **hot tests**, and **neutral tests**, including examples and the recommended execution order.
