@@ -76,4 +76,4 @@ npx cypress run
 
 ## Test State Classification
 
-Tests in this suite differ in the initial application state they require. See [tests-frios-vs-calientes.md](tests-frios-vs-calientes.md) for a full explanation of **cold tests**, **hot tests**, and **neutral tests**, including examples and the recommended execution order.
+Tests in this suite differ in the initial application state they require. See [COLD-VS-HOT-TEST.md](COLD-VS-HOT-TEST.md) for a full explanation of **cold tests**, **hot tests**, and **neutral tests**, including examples and the recommended execution order.
