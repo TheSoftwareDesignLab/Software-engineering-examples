@@ -1,0 +1,10 @@
+apiVersion: skaffold/v4beta7
+kind: Config
+metadata:
+  name: checkout-app
+manifests:
+  rawYaml:
+    - manifests/00-namespace.yaml
+    - manifests/10-payments.yaml
+    - manifests/20-api.yaml
+    - manifests/30-frontend.yaml
